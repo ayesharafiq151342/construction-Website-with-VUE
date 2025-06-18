@@ -8,6 +8,7 @@ import { UserModule } from './user/user.module';
     ConfigModule.forRoot({
       isGlobal: true, // Makes config available everywhere
     }),
+    ///sdsad
     TypeOrmModule.forRootAsync({
       imports: [ConfigModule],
       inject: [ConfigService],
