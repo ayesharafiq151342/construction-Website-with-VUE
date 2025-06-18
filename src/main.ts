@@ -4,7 +4,7 @@ import { AppModule } from "./app.module";
 import { ConfigService } from '@nestjs/config';
 import * as express from 'express';
 import './polyfill'
-
+// console.log("✅ App starting...");
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
 
